@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2738566401402885594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2738566401402885573}
+  - component: {fileID: 2738566401402885572}
+  m_Layer: 7
+  m_Name: AgentManager2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2738566401402885573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738566401402885594}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -290.56345, y: 251.24329, z: -352.88193}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2738566401402885572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738566401402885594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb14df0feaaba8c4b86314b035487275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generationNumber: 1
+  highestScoreOfLastGeneration: 0
+  timePassedSinceStartOftest: 0
+  NumAgent: 301
+  timeForEachTest: 60
+  NeuralNetworkAgentPrefab: {fileID: 4966208739338686648, guid: 8d3aab2eb81cd2946a531c04ce686138, type: 3}
+  spawnLocation: {x: 265.1, y: 4.5, z: 708.8}
+  spawnRotation: {x: 0, y: 0, z: 0}
+  checkPointTriggers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  NeuralNetworkFilePath: D:\UnityProjects\SelfDrivingCar\Assets\NetworkFiles\Network5.txt
+  saveNeuralNetwork: 1
